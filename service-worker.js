@@ -5,7 +5,7 @@ const FILES_TO_CACHE = [
   "/app.html",
   "/style.css",
   "/inscription.js",
-  "/images/logo-cuivre.png"
+  "/images/logo.png"
 ];
 
 self.addEventListener("install", e => {
