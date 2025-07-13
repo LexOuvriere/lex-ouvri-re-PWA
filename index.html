@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lex Ouvrière</title>
+  <title>Lex Ouvrière – Accès</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="inscription.js"></script>
 </head>
 <body>
   <div class="page-container">
     <div class="left-zone">
-      <h1 class="inscription-titre">INSCRIPTION</h1>
-      <a href="app.html" class="cta-inscription">→ Commencer</a>
+      <h1 class="inscription-titre">Inscription sécurisée</h1>
+      <form id="form-acces">
+        <label for="numero">Numéro WhatsApp :</label>
+        <input type="text" id="numero" placeholder="+22890123456" required />
+        <button type="submit">Recevoir le lien 📩</button>
+      </form>
     </div>
-
     <div class="right-zone">
       <img src="images/logo-cuivre.png" alt="Logo Lex Ouvrière" class="logo-large" />
     </div>
