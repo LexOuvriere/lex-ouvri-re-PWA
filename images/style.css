@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("images/texture-cuir.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #2f1c0b;
+}
+
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.left-zone {
+  width: 50%;
+  text-align: left;
+}
+
+.inscription-titre {
+  font-size: 3em;
+  color: #b87333; /* bronze cuivré */
+  margin-bottom: 20px;
+}
+
+.cta-inscription {
+  font-size: 1.8em;
+  background-color: #333;
+  color: #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.cta-inscription:hover {
+  background-color: #b87333;
+}
+
+.right-zone {
+  width: 50%;
+  text-align: center;
+}
+
+.logo-large {
+  max-width: 80%;
+  height: auto;
+}
+
