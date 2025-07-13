@@ -1,0 +1,16 @@
+{
+  "name": "Lex Ouvrière",
+  "short_name": "Ouvrière",
+  "start_url": "app.html",
+  "display": "standalone",
+  "theme_color": "#b87333",
+  "background_color": "#fdf6f0",
+  "icons": [
+    {
+      "src": "images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
