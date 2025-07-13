@@ -1,48 +1,7 @@
-.inscription-container {
-  max-width: 600px;
-  margin: auto;
-  padding: 40px;
-  background-color: rgba(255, 255, 255, 0.85);
-  border-radius: 12px;
-  box-shadow: 0 0 20px #b87333;
-}
-
-section h2 {
-  color: #333;
-  font-size: 1.8em;
-  margin-bottom: 20px;
-}
-
-form label {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-}
-
-form input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-button {
-  margin-top: 25px;
-  padding: 10px 20px;
-  background-color: #b87333;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-size: 1em;
-  cursor: pointer;
-}
-
 body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
-  background: url("images/texture-cuir.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-color: #fdf6f0;
   color: #2f1c0b;
 }
 
@@ -54,38 +13,38 @@ body {
   padding: 40px;
 }
 
-.left-zone {
+.left-zone, .right-zone {
   width: 50%;
-  text-align: left;
 }
 
 .inscription-titre {
-  font-size: 3em;
-  color: #b87333; /* bronze cuivré */
-  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #b87333;
 }
 
-.cta-inscription {
-  font-size: 1.8em;
-  background-color: #333;
-  color: #fff;
-  padding: 15px 25px;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.cta-inscription:hover {
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
   background-color: #b87333;
-}
-
-.right-zone {
-  width: 50%;
-  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 .logo-large {
   max-width: 80%;
-  height: auto;
 }
 
