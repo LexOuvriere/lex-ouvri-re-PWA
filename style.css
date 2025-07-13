@@ -5,7 +5,7 @@ body {
   color: #2f1c0b;
 }
 
-.page-container {
+page-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,11 +13,11 @@ body {
   padding: 40px;
 }
 
-.left-zone, .right-zone {
+left-zone, .right-zone {
   width: 50%;
 }
 
-.inscription-titre {
+inscription-titre {
   font-size: 2.5em;
   color: #b87333;
 }
