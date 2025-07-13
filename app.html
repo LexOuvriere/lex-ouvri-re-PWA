@@ -3,41 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inscription – Lex Ouvrière</title>
+  <title>Lex Ouvrière – Accès sécurisé</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="inscription.js"></script>
 </head>
 <body>
   <main class="inscription-container">
-
-    <!-- Étape 1 -->
-    <section id="step1">
-      <h2>Étape 1 – Informations personnelles</h2>
-      <form id="form-step1">
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom" required />
-
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="email" required />
-
-        <button type="button" id="to-step2">Suivant →</button>
-      </form>
+    <section>
+      <h2>Bienvenue sur Lex Ouvrière</h2>
+      <p>Accès réservé aux utilisateurs WhatsApp vérifiés.</p>
+      <p id="confirmation-message"></p>
     </section>
-
-    <!-- Étape 2 -->
-    <section id="step2" style="display: none;">
-      <h2>Étape 2 – Profil ou Vérification</h2>
-      <form id="form-step2">
-        <label for="metier">Métier / secteur :</label>
-        <input type="text" id="metier" name="metier" required />
-
-        <label for="identifiant">Identifiant WhatsApp (ou numéro) :</label>
-        <input type="text" id="identifiant" name="identifiant" required />
-
-        <button type="submit">Valider l’inscription ✅</button>
-      </form>
-    </section>
-
   </main>
 </body>
 </html>
